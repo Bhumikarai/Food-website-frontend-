@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width-device-width,initial-scale-1.0" >
+	<title>eatUp</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="eatUp.css">
+	<script src="http://code.jquery.com/jquery-latest.js"></script>
+
+</head>
+<body>
+	<header>
+		<div class="container">
+			<div class="logo">
+			<h1>EatUp!</h1>
+			</div>
+			    <nav>
+					<ul>  
+					    <li> <a href="#" id="largerText">A+</a></li>
+                        <li> <a href="#" id="normalText">A</a></li>
+                        <li> <a href="#" id="smallerText">A-</a></li>  
+					    <li><a href="landing.html" aria-label="Home">Home</li>
+	                    <li><a href="About us.html" aria-label="About Us">About Us</a> </li>
+	                    <li><a href="Ourmenu.html" aria-label="Our menu">Our menu</a></li>
+	                    <li><a href="contact us.html" aria-label="Contact Us"> Contact Us</a></li>
+	                    <li><a href="login.html" aria-label="My account">My account</a></li>
+	                </ul>
+	            </nav>
+        	
+            <div class="search"><input type="text" name="" placeholder="Search...">
+                    <a href="vegies.html" aria-label="vegies"><i class="fa fa-search" aria-hidden="true" aria-label="search"></i></a>
+            </div>
+            <div class="mybag">       
+                <a href="addtocart.html" aria-label="bag"><i class="fa fa-shopping-bag" aria-hidden="true" aria-label="cart"></a></i>
+		    </div>
+	</div>
+	</header>
+
+	<div class="faq">
+		<h2>  Frequently Asked Question (FAQ)</h2>
+		<div class="accordtion">
+			<div class="icon"></div>
+			<h5 style="color: black;font-family: Georgia, serif;">What is Lorem Ipsum?</h5>
+		</div>
+		<div class="panel">
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vestibulum augue at lacus tristique placerat. Duis velit tellus, malesuada et ligula eu, accumsan viverra nunc. Praesent at nunc in lorem consequat efficitur. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras porta mattis aliquam. Sed sit amet ullamcorper ipsum. </p>
+		</div>
+
+		<div class="accordtion">
+			<div class="icon"></div>
+			<h5 style="color: black; font-family: Georgia, serif;">Why do we use it?</h5>
+		</div>
+		<div class="panel">
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vestibulum augue at lacus tristique placerat. Duis velit tellus, malesuada et ligula eu, accumsan viverra nunc. Praesent at nunc in lorem consequat efficitur. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras porta mattis aliquam. Sed sit amet ullamcorper ipsum.  </p>
+		</div>
+		<div class="accordtion">
+			<div class="icon"></div>
+			<h5 style="color: black;font-family: Georgia, serif;">Why does it come from?</h5>
+		</div>
+		<div class="panel">
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vestibulum augue at lacus tristique placerat. Duis velit tellus, malesuada et ligula eu, accumsan viverra nunc. Praesent at nunc in lorem consequat efficitur. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+		</div>
+		
+	<p style="padding-left:200px ;font-family: cursive; "><a href="https://www.google.com/search?q=google&oq=google&aqs=chrome.0.69i59l2j0i131i433l3j69i60l3.1864j1j7&sourceid=chrome&ie=UTF-8" aria-label="help">Need<span style="color: red;cursor: pointer;" >help?</span></p></a>
+	<hr style="width: 300px;">
+	</div>
+
+<!------------------------------footer section----------------------------------->
+<footer class="footer">
+<div class="footer-part">
+	<div class="footer-col">
+		<h4>nav</h4>
+		<ul><a href="landing.html" aria-label="Home">Home</a></ul>
+		<ul><a href="About us.html" aria-label="About Us"> About Us</a></ul>
+		<ul><a href="Ourmenu.html" aria-label="Our menu"> Our menu</a></ul>
+		<ul><a href="conatct us.html" aria-label="Contact Us"> Contact Us</a></ul>
+		<ul><a href="login.html" aria-label="My account"> My account</a></ul>
+	</div>
+	<div class="footer-col">
+		<h4> Get Help</h4>
+		<ul><a href="faq.html" aria-label="faq"> FAQ</a></ul>
+		</div>
+	<div class="footer-col">
+	<h4> Follow us</h4>
+	<!-------------------------------social links----------------------------------->
+	<div class="social-links">
+	<a href="#" aria-label="link"><i class="fa fa-facebook" aria-hidden="true" aria-label="facebook"></i><br><br>
+	<a href="#" aria-label="link"><i class="fa fa-instagram" aria-hidden="true" aria-label="instagram"></i><br><br>
+	<a href="#" aria-label="link"><i class="fa fa-twitter" aria-hidden="true" aria-label="twitter"></i>
+
+</div>
+</div>
+<h6 style="color: #fff; font-family:sans-serif;padding-left:450px; font-size:15px; margin-top:30px;">&copy EatUp.All Right Reserved 2021.</h6>
+</div>
+</div>
+<!-------------------------------------------Accessibility---------------------------->
+<script>
+		$("#largerText").click(function() {
+		  $("nav ul a").css("font-size", "25px");
+		});
+    $("#normalText").click(function() {
+		  $("nav ul a").css("font-size", "18px");
+		});
+		$("#smallerText").click(function() {
+		  $("nav ul a").css("font-size", "15px");
+		});
+	</script>
+</html>
+</body>
+
+
+
+	
+

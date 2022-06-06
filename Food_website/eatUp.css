@@ -1,0 +1,1275 @@
+*
+{
+	padding: 0;
+	margin: 10;
+	box-sizing: border-box;
+}
+.container{
+	width: 100%;
+	height:150px;
+	padding-left:7%;
+	box-sizing: border-box;
+	overflow: hidden;
+	background:#017143;
+}
+.logo h1{
+    width:110px;
+	font-family:cursive;
+	margin-top:50px;
+	margin-left: -45px;
+	color: white;
+} 
+nav{
+	float:right;
+	width:800px;
+	text-align:right;
+	margin-right: 350px;
+	margin-top:-50px;
+}
+nav ul li{
+	list-style: none;
+	display:inline-block;
+	margin-right:20px;
+}
+nav ul li a{
+	text-decoration: none;
+	color:white;
+	font-size:22px;
+
+}
+nav ul li a:hover{
+	color:black;
+}
+.search{
+	float:right;
+	display: inline-block;
+	margin-top:-50px;
+	margin-right: 120px;
+}
+.search i{
+	margin-left: 10px;
+	color:white;
+}
+.search a i:hover {
+	color: black;
+}
+.search input{
+	border:none;
+	height: 36px;
+	width: 150px;
+	padding-left: 10px;
+}
+.mybag{
+	float:right;
+	display:inline-block;
+	font-size: 30px;
+	margin-top:-50px;
+	margin-right: 50px;
+}
+.mybag i{
+	color:white;
+}
+.mybag i:hover{
+	color: black;
+}
+
+/*..........................................CSS for landing  page.................................*/
+
+#slider{
+	overflow: hidden;
+	height: 500px;
+	width: 800px;
+    float:right;
+    border-radius:10px;
+
+
+}
+#slider figure{
+	position: relative;
+	width:500%;
+	margin-top: -20px;
+	left: 0;
+	animation: 10s slider infinite;
+}
+#slider figure img{
+	float: left;
+	width:20%;
+	height:450px;
+}
+@keyframes slider{
+	0% {
+		left:0;
+	}
+	20% {
+		left: 0;
+	}
+	25%{
+		left:-100%;
+	}
+	45%{
+		left: -100%
+	}
+	50% {
+		left: -200%;
+	}
+	70%{
+		left: -200%;
+	}
+	75%{
+		left: -300%
+	}
+	
+}
+
+.column{
+	width: 500px;
+	height: 430px;
+	margin-top:50px;
+	background-color: #EEEDED;
+
+
+}
+.column h1{
+	padding-top: 80px;
+	font-family:cursive;
+	color:black;
+	line-height:6px;
+}
+.column h2{
+	padding-top: 30px;
+	font-family: cursive;
+	color:black;
+}
+.column h3{
+	padding-top:20px;
+	font-family: cursive;
+	color:black;
+	padding-left:15px;
+}
+.column2{
+	width: 650px;
+	height: 330px;
+	margin-top:14px;
+	float: right;
+
+}
+.column2 h1{
+	margin-top:40px;
+	font-family:cursive;
+	color:black;
+	line-height:6px;
+}
+.column2 p{
+	font-family:sans-serif;
+	font-size:20px;
+	color:black;
+	text-align:justify;
+	padding-top: 20px;
+	padding:20px;
+	line-height:30px;
+}
+.btn1 {
+	margin-top:-30px;
+	height:45px;
+	width: 100px;
+	background-color:#017143;
+	color: #fff;
+	margin-left:250px;
+	border: none;
+}
+.btn1 a{
+	text-decoration: none;
+	color: #fff;
+}
+.btn1:hover{
+	background-color:black;
+}
+
+.column3{
+	width: 650px;
+	height: 355px;
+	margin-top:130px;
+	float: left;
+
+}
+.column3 h1{
+	margin-top:35px;
+	font-family:cursive;
+	color:black;
+	line-height:6px;
+}
+.column3 p{
+	font-family:sans-serif;
+	font-size:20px;
+	color:black;
+	line-height:30px;
+	text-align: justify;
+	padding:20px;
+}
+.btn2{
+	margin-top:-30px;
+	height:45px;
+	width: 100px;
+	background-color:#017143;
+	color: #fff;
+	margin-left:250px;
+	border: none;
+}
+.btn2 a{
+	text-decoration: none;
+	color: white;
+}
+.btn2:hover{
+	background-color:black; 
+}
+
+.column4{
+	width:600px;
+	height: 356px;
+	margin-top:-360px;
+	float:right;
+
+}
+.column4 h1{
+	margin-top:40px;
+	font-family:cursive;
+	color:black;
+	line-height:6px;
+}
+.column4 p{
+	font-family:sans-serif;
+	text-align: justify;
+	font-size:20px;
+	color:black;
+	padding-top:10px;
+	padding-right: 20px;
+}
+.btn3 {
+	margin-top:5px;
+	height:45px;
+	width: 100px;
+	background-color:#017143;
+	color: #fff;
+	margin-left:250px;
+	border: none;
+}
+.btn3 a {
+	text-decoration: none;
+	color: white;
+}
+.btn3:hover{
+	background-color:black;
+}
+
+/* ...........................CSS for About us page..................*/
+
+.about{
+	margin-top:50px;
+	height:450px;
+
+	background:url(img/red.jpg ) no-repeat left;
+	background-size:60%;
+	overflow: hidden;
+
+}
+.inner-section{
+	margin-top: 50px;
+	width:38%;
+	float: right;
+	background-color:#029759;
+	height: 350px;
+	
+	
+}
+.inner-section h1{
+
+ font-family:cursive;
+ color: #fff;
+}
+.inner-section p{
+	font-family: sans-serif;
+    color:#ffffff;
+    padding:15px;
+    text-align: justify;
+	
+}
+h1{
+	margin-top:80px;
+	font-family: cursive;
+}
+
+.image {
+  height: 500px;
+  width:420px;
+  float: left;
+  display:inline-block;
+}
+.image1{
+ height: 500px;
+  width:400px;
+ float: center;
+ display:inline-block;
+ margin-left:40px;
+
+}
+.image2{
+  height:500px;
+  width:420px;
+  float: right;
+  display:inline-block;
+}
+
+.flip-box{
+	margin-top: 70px;
+	background-color:#029759;
+	height: 350px;
+	width:330px;
+	border: 1px solid #029759 ;
+	perspective: 1000px;
+
+	
+}
+.flip-box-inner{
+	height: 100%;
+	transform-style: preserve-3d;
+	transition: transform 0.8s;
+	margin-top:-20px;
+}
+.flip-box:hover .flip-box-inner{
+	transform: rotateY(180deg);
+}
+.flip-box-front, .flip-box-back{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	backface-visibility: hidden;
+
+}
+.flip-box-front{
+	float: right;
+	display:inline-block;
+	
+
+}
+.flip-box-back{
+	background-color:#E8E6E6;
+	text-align: justify;
+	transform: rotateY(180deg);
+}
+.flip-box-back h1{
+	color: purple;
+
+}
+.flip-box-back h2{
+	color:black;
+}
+
+.about1{
+	margin-top:50px;
+	height:450px;
+	background:url(img/us2.jpg) no-repeat right;
+	background-size:50%;
+	overflow: hidden;
+}
+
+.inner-section1{
+	margin-top:50px;
+	width:45%;
+	float:left;
+
+	background-color:#029759;
+	height:350px;
+	border-radius:2px;
+	
+	
+}
+.inner-section1 h1{
+
+ font-family:cursive;
+ color: #fff;
+}
+.inner-section1 p{
+	font-family: sans-serif;
+    color:#ffffff;
+    padding:18px;
+    text-align: justify;
+
+}
+
+.video{
+	margin-top:50px;
+	padding-left: 50px;
+}
+
+
+/*...................................Our Menu CSS................................*/
+.special h1{
+	text-align: center;
+	margin-top: 50px;
+	color:#017143;
+	font-size:30px;
+	animation: blink 3s linear infinite;
+}
+@keyframes blink{
+	50%{
+		opacity: 0;
+	}
+}
+
+.special1 {
+  height:470px;
+  width:420px;
+  float: left;
+  display:inline-block;
+}
+.special2{
+ height:470px;
+  width:420px;
+ float: center;
+ display:inline-block;
+ margin-left:40px;
+
+}
+.special3{
+	height:470px;
+  width:420px;
+  float: right;
+  display:inline-block;
+}
+.image{
+	height: 350px;
+  width:400px;
+  padding-left:15px;
+  margin-top: 26px;
+
+}
+.image1{
+	height:350px;
+  width:390px;
+  margin-left: 15px;
+ margin-top:26px;
+}
+.image2{
+	height:350px;
+  width:390px;
+  margin-top: 26px;
+  margin-right: 15px;
+  
+}
+.special1 h3{
+	padding-left:80px;
+}
+.btnmenu{
+    height:45px;
+	width: 100px;
+	background-color:#017143;
+	color: #fff;
+	margin-left:130px;
+	border: none;
+}
+.btnmenu:hover{
+	background-color:black;
+}
+
+
+.special-1 h1{
+	text-align: center;
+	margin-top: 50px;
+	color:#017143;
+	font-size:30px;
+	animation: blink 3s linear infinite;
+}
+@keyframes blink{
+	50%{
+		opacity: 0;
+	}
+}
+.special-one {
+  height:470px;
+  width:310px;
+  float: left;
+  display:inline-block;
+}
+.special-two{
+ height:470px;
+  width:310px;
+ float: center;
+ display:inline-block;
+ margin-left:28px;
+
+
+}
+.special-three{
+ height:470px;
+  width:310px;
+ float: center;
+ display:inline-block;
+ margin-left:26px;
+
+}
+.special-four{
+	height:470px;
+  width:310px;
+  float: right;
+  display:inline-block;
+}
+.image3{
+	height:200px;
+  width:300px;
+  padding-left:15px;
+  margin-top: 26px;
+
+}
+.image4{
+	height:200px;
+  width:290px;
+  margin-left:10px;
+ margin-top:26px;
+}
+.image5{
+	height:200px;
+  width:290px;
+  margin-left:10px;
+ margin-top:26px;
+}
+.image6{
+	height:200px;
+  width:290px;
+  margin-top: 26px;
+  margin-left:10px;
+  
+}
+
+.btnmenu{
+    height:45px;
+	width: 100px;
+	background-color:#017143;
+	color: #fff;
+	border: none;
+}
+.btnmenu a{
+	text-decoration: none;
+	color: white;
+}
+.btnmenu:hover{
+	background-color:black;
+}
+
+.btnmenu1{
+    height:45px;
+	width: 100px;
+	background-color:#017143;
+	color: #fff;
+	margin-left:85px;
+	border: none;
+}
+.btnmenu1 a{
+	text-decoration: none;
+	color: #fff;
+}
+
+.btnmenu1:hover{
+	background-color:black;
+}
+.btnmenu2{
+    height:45px;
+	width: 100px;
+	background-color:#017143;
+	color: #fff;
+	margin-left:110px;
+	border: none;
+}
+.btnmenu2 a{
+	text-decoration: none;
+	color: #fff;
+}
+.btnmenu2:hover{
+	background-color:black;
+}
+.btnmenu3{
+    height:45px;
+	width: 100px;
+	background-color:#017143;
+	color: #fff;
+	margin-left:110px;
+	border: none;
+}
+.btnmenu3 a{
+	text-decoration: none;
+	color: #fff;
+}
+.btnmenu3:hover{
+	background-color:black;
+}
+.btnmenu4{
+    height:45px;
+	width: 100px;
+	background-color:#017143;
+	color: #fff;
+	margin-left:110px;
+	border: none;
+}
+.btnmenu4 a {
+	text-decoration: none;
+	color: #fff;
+}
+.btnmenu4:hover{
+	background-color:black;
+}
+
+.special-five {
+margin-top: 50px;
+height:470px;
+ width:310px;
+ float: left;
+ display:inline-block;
+}
+.special-six{
+ margin-top: 50px;
+ height:470px;
+ width:310px;
+ float: center;
+ display:inline-block;
+ margin-left:28px;
+
+
+}
+.special-seven{
+  margin-top: 50px;
+  height:470px;
+  width:310px;
+ float: center;
+ display:inline-block;
+ margin-left:26px;
+
+}
+.special-eight{
+  margin-top: 50px;
+  height:470px;
+  width:310px;
+  float: right;
+  display:inline-block;
+}
+.image3{
+	height:200px;
+  width:300px;
+  padding-left:15px;
+  margin-top: 26px;
+
+}
+.image4{
+	height:200px;
+  width:290px;
+  margin-left:10px;
+ margin-top:26px;
+}
+.image5{
+	height:200px;
+  width:290px;
+  margin-left:10px;
+ margin-top:26px;
+}
+.image6{
+	height:200px;
+  width:290px;
+  margin-top: 26px;
+  margin-left:10px;
+}
+
+.button{
+	height:45px;
+	width: 100px;
+	background-color:#017143;
+	border:none;
+	color: #fff;
+	margin-left:50px;
+}
+.button a{
+	text-decoration: none;
+	color: #fff;
+}
+.button:hover{
+	background-color:black ;
+}
+
+/*.............................. CSS for contact us page..........................*/
+.contact{
+	position: relative;
+	min-height: 100vh;
+	padding:50px 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background-color:#EEEDED;
+	margin-top:30px;
+	background-size: cover;
+
+}
+.contact .content
+{
+	max-width: 800px;
+	text-align: center;
+
+}
+.contact .content h2{
+	font-size: 36px;
+	font-weight: 500;
+	color:#0C0A0B;
+	font-family: cursive;
+	margin-top:-10px;
+}
+
+.contact .content p{
+	
+	font-size:20px;
+	color:#0C0A0B;
+	font-family: sans-serif;
+
+}
+.contact-us{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 30px;
+
+}
+.contact-us .contactInfo{
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+}
+.contact-us .contactInfo .box
+{
+	position: relative;
+	padding:20px 0;
+	display: flex;
+}
+.contact-us .contactInfo .box .icon{
+	min-width: 60px;
+	height: 60px;
+	background:#017143;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	font-size:22px;
+
+}
+.contact-us .contactInfo .box .icon i{
+	color: #fff;
+}
+.contact-us .contactInfo .box .text{
+	display: flex;
+	margin-left: 20px;
+	font-size:19px;
+	color:black;
+	flex-direction: column;
+	font-weight: 300;
+
+
+
+}
+.contact-us .contactInfo .box .text h3{
+	
+	font-weight: 500;
+	color:black;
+	font-family: cursive;
+}
+.contactForm{
+	width: 40%;
+	padding: 40px;
+	background:#fff;
+}
+.contactForm h2 {
+	font-size: 30px;
+	color: #333;
+	font-weight: 500;
+}
+.contactForm .inputBox{
+	position: relative;
+	width: 100%;
+	margin-top: 10px;
+}
+
+.contactForm .inputBox input,
+.contactForm .inputBox textarea{
+	width: 100%;
+	padding:5px 0;
+	font-size:16px;
+	margin: 10px 0;
+	border: none;
+	border-bottom: 2px solid #017143;
+	outline:none;
+	resize: none;
+}
+.contactForm .inputBox span{
+
+	position: absolute;
+	left: 0;
+	padding: 5px 0;
+	font-size: 16px;
+	margin: 10px 0;
+	pointer-events: none;
+	transition: 0.5s;
+	color: #666;
+}
+.contactForm .inputBox input:focus ~ span,
+.contactForm .inputBox input:valid ~ span,
+.contactForm .inputBox textarea:focus ~ span,
+.contactForm .inputBox textarea:valid ~ span
+{
+	color:#74040F;
+	font-size: 12px;
+	transform: translateY(-20px);
+}
+
+.contactForm .inputBox input[type="submit"]
+{
+	width: 100px;
+	background:#017143;
+	color:white;
+	border:none;
+	cursor: pointer;
+	padding:10px;
+	font-size:18px;
+}
+@media (max-width: 991px) /*.............Responsive section for contact us..............*/
+{
+	.contact
+	{
+		padding:50px;
+	}
+	.contact-us{
+		flex-direction: column;
+	}
+	.contact-us .contactInfo
+	{
+      margin-bottom: 40px;
+	}
+	.contact-us .contactInfo,
+	.contactForm
+	{ 
+		width: 100%;
+	 }
+
+}
+/*...........................CSS for landing page....................*/
+.content1{
+	position: relative;
+	width: 100%;
+	display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.content1 .textBox{
+	position: relative;
+	max-width: 700px;
+	
+
+}
+.content1 .textBox h2{
+	color: black;
+	font-size:35px;
+	line-height:50px;
+	font-weight: 500;
+	padding-left: 70px;
+}
+
+.content1 .textBox h2 span{
+	color: #017143;
+	font-size:50px;
+	font-weight: bold;
+
+}
+ 
+.content1 .textBox  a{
+	display: inline-block;
+	margin-left:200px;
+	margin-top:20px;
+	padding:8px 20px ;
+	background:#017143;
+	color: #fff;
+	border-radius: 40px;
+	font-weight: 500;
+	letter-spacing:1px;
+	text-decoration: none; 
+	font-family: sans-serif;
+}
+.content1 .imgBox {
+	width: 600px;
+	display: flex;
+	justify-content: flex-end;
+	padding-right:5px;
+	margin-top:20px;
+}
+.content .imgBox img{
+
+	max-width:750px;
+}
+/*.................................CSS for cart............................*/
+ .cart{
+ 	position: relative;
+	min-height: 100vh;
+	padding:50px 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background-color:#EEEDED;
+	margin-top:10px;
+	background-size: cover;
+
+ }
+ .cart-main{
+   
+ 	width:990px;
+ 	height: 500px;
+ 	margin-top:50px;
+ 	margin-left:20px;
+ 	background:#fff;
+ 	border-radius: 10px;
+ 	
+ }
+ .leftside{
+ 	height:500px;
+ 	width: 490px;
+ 	width:500px;
+
+ }
+ 
+ .rightside{
+ 	width:450px;
+ 	height: 500px;
+ 	border-radius: 10px;
+ 	float: right;
+ 	margin-top:-500px;
+ 	color: #fff;
+ }
+ .inside{
+ 	margin-top: 50px;
+ 	padding:15px;
+ 	color:black;
+ }
+ .button{
+ 	padding:10px;
+ 	margin:10px;
+ 	border-radius:5px;
+ 	margin-top:45px;
+ 	background-color: #017143;
+ 	color: white;
+ 	width: 120px;
+ 	height:50px;
+ 	margin-left:2px;
+ 	border:none;
+ }
+ .button a{
+ 	text-decoration: none;
+ }
+ label {
+ 	font-family: sans-serif;
+ 	font-size:20px;
+ }
+ .Des{
+ 	position: relative;
+	min-height: 100vh;
+	padding:50px 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background-color:white;
+	margin-top:10px;
+	background-size: cover;
+
+ }
+ .Description{
+ width:990px;
+ 	height: 500px;
+ 	margin-top:50px;
+ 	margin-left:20px;
+ 	background:#017143;
+ 	border-radius: 10px;
+
+ }
+
+.container-1{
+
+	width: 100%;
+	padding-left:5%;
+	padding-right: 5%;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+/*.................................CSS for FAQ...............................*/
+
+.faq {
+
+	width: 40%;
+	margin:0 auto;
+	margin-top: 100px;
+}
+.faq h2{
+	color:black;
+	position: relative;
+	width: 23rem;
+	margin-top:10px;
+	margin-bottom:50px;
+
+}
+.faq h2::after{
+	content:"";
+	position: absolute;
+	margin-top: 30px;
+	right: 12px;
+	width: 67px;
+	height: 2px;
+	background-color:#017143;
+}
+.accordtion{
+	width: 100%;
+	padding:0 5px;
+	border:2px solid #017143;
+    cursor: pointer;
+    border-radius: 50px;
+    display: flex;
+    margin: 10px 0;
+    align-items: center;
+}
+.accordtion .icon{
+	margin: 0 10px 0 0;
+	width: 30px;
+	height: 30px;
+	background:url(img\f1.jpg) no-repeat 8px 7px #017143;
+	border-radius: 50%;
+	float: left;
+	
+}
+.accordtion h5{
+	font-size: 22px;
+	margin: 0;
+	padding:7px 0 7px 0;
+	font-weight: normal;
+	color: green;
+
+}
+.panel{
+	padding:  0 15px;
+	border-left: 1px solid green;
+	font-family: sans-serif;
+	margin-left: 25px;
+	font-size:20px;
+	text-align: justify;
+	overflow: hidden;
+	max-height:300px;
+}
+.faq p{
+	font-size: 20px;
+}
+
+.faq a{
+	text-decoration: none;
+}
+/*.............................CSS for addtocart............................*/
+.addtocart{
+ 	position: relative;
+	min-height: 100vh;
+	padding:50px 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background-color:#EEEDED;
+	margin-top:10px;
+	background-size: cover;
+
+ }
+ .cart-main-1{
+   
+ 	width:990px;
+ 	height: 500px;
+ 	margin-top:50px;
+ 	margin-left:20px;
+ 	background:#fff;
+ 	border-radius: 10px;
+ 	
+ }
+ 
+ 
+ .checkinbtn{
+ 	padding:10px;
+ 	margin:10px;
+ 	border-radius:5px;
+ 	margin-top:3px;
+ 	background-color: #017143;
+ 	color: white;
+ 	width: 120px;
+ 	height:40px;
+ 	float: right;
+ 	border:none;
+ }
+ .removebtn{
+ 	padding:10px;
+ 	margin:10px;
+ 	border-radius:5px;
+ 	margin-top:3px;
+ 	background-color: #017143;
+ 	color: white;
+ 	width: 120px;
+ 	height:40px;
+ 	float:right;
+ 	border:none;
+ }
+ 
+
+/*.............................CSS for login.............................*/
+.Login{
+	position: relative;
+	min-height: 100vh;
+	padding:50px 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background-color:#EEEDED;
+	
+	margin-top:30px;
+	background-size: cover;
+}
+.login-page{
+	width: 360px;
+	padding:10% 0 0;
+	margin: auto;
+
+}
+.form{
+
+    position: relative;
+    z-index: 1;
+    background:#40B268;
+    width: 700px;
+    height: 400px;
+    margin-top:-250px;
+    padding: 45px;
+    text-align: center;
+
+	}
+
+.form input{
+	font-family: "Roboto",sans-serif;
+	outline: 1;
+	background:#fff;
+	width: 100%;
+	border:0;
+	margin: 0 0 15px;
+	padding:15px;
+	box-sizing: border-box;
+	font-size: 14px;
+
+}
+.form button{
+	font-family: "Roboto", sans-serif;
+	text-transform: uppercase;
+	outline:0;
+	background:#070606;
+	width: 100%;
+	border:0;
+	padding:15px;
+	color:white;
+	font-size: 14px;
+	cursor: pointer;
+
+}
+.form button:hover,.form button:active{
+	background:#A5A3A5;
+}
+.form .message {
+	margin: 15px 0 0;
+	font-size: 12px;
+}
+.form .message a{
+	color: #fff;
+	font-size:20px;
+}
+.form .register-form{
+	display: none;
+}
+
+/*.........................CSS for footer page............................*/
+.footer-part{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+.footer{
+	margin-top: 50px;
+	background-color: black;
+	
+}
+.footer-col{
+	width:30%;
+	padding: 0 145px;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 20px;
+	font-weight: 500;
+	position: relative;
+
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left: 0;
+	bottom: -10px;
+	background-color: red;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul :not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	
+	height: 50px;
+	width: 50px;
+	color: #ffffff;
+
+}
+.footer-col .social-links a:hover{
+color:#70B388;
+}
+/*......................Responsive section for footer part...*/
+@media(max-width: 767px){
+	.footer-col{
+		width: 50%;
+		margin-bottom: 30px;
+	}
+}
+@media(max-width:574px){
+	.footer-col{
+		width: 100%;
+		
+	}
+}
+
